@@ -1,0 +1,133 @@
+body {
+    width: 100%;
+    /* Change this value to customize the content area*/
+    margin: 0 auto;
+}
+
+header { 
+	align-content: center;
+	background-color: #252CB0;
+}
+
+h1 {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	
+}
+
+.textShadow {
+    font: bold 60px arial, sans-serif;
+    background-color: #565656;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
+	/*Chrome, Safari*/
+    -webkit-background-clip: text;
+	/*Firefox*/
+    -moz-background-clip: text;
+	/*Standard Syntax*/
+    background-clip: text;
+}
+
+/* 
+
+
+
+Define this in your CSS 
+
+.bgColor = Replace it by the name you want to give your animation
+
+.bgAnimObj = Assign this class to the object you want to apply the effect
+
+*/
+
+
+
+.bgAnimObj {
+
+	anim
+
+    -webkit-animation: bgColor .5s;
+
+    /* Chrome, Safari */
+
+    -moz-animation: bgColor .5s;
+
+    /* Firefox */
+
+    -o-animation: bgColor .5s;
+
+    /* Opera */
+
+    animation: bgColor .5s;
+	
+	animation-iteration-count: infinite;
+	
+	animation-direction: alternate;
+	
+	animation-timing-function: ease-in-out;
+
+}
+
+/* 
+
+
+
+Define the keyframe and changes
+
+
+
+*/
+
+
+
+/* Chrome, Safari */
+
+
+
+@-webkit-keyframes bgColor {
+
+	0% {background: rgba(255, 0, 0, 1.00);}
+	50%{background: rgba(0, 0, 255, 1.00);}
+	100%{background: rgba(0, 255, 0, 1.00);}
+
+}
+
+/* Firefox */
+
+
+
+@-moz-keyframes bgColor {
+
+	0% {background: rgba(255, 0, 0, 1.00);}
+	50%{background: rgba(0, 0, 255, 1.00);}
+	100%{background: rgba(0, 255, 0, 1.00);}
+
+}
+
+/* Opera */
+
+
+
+@-o-keyframes bgColor {
+
+	0% {background: rgba(255, 0, 0, 1.00);}
+	50%{background: rgba(0, 0, 255, 1.00);}
+	100%{background: rgba(0, 255, 0, 1.00);}
+
+}
+
+/* Standard syntax */
+
+
+
+@keyframes bgColor {
+
+	0% {background: rgba(255, 0, 0, 1.00);}
+	50%{background: rgba(0, 0, 255, 1.00);}
+	100%{background: rgba(0, 255, 0, 1.00);}
+
+}
