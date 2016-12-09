@@ -2,6 +2,7 @@ body {
     width: 100%;
     /* Change this value to customize the content area*/
     margin: 0 auto;
+	align-content: center;
 }
 
 header { 
@@ -70,21 +71,6 @@ Define this in your CSS
 
 }
 
-/* 
-
-
-
-Define the keyframe and changes
-
-
-
-*/
-
-
-
-/* Chrome, Safari */
-
-
 
 @-webkit-keyframes bgColor {
 
@@ -94,10 +80,6 @@ Define the keyframe and changes
 
 }
 
-/* Firefox */
-
-
-
 @-moz-keyframes bgColor {
 
 	0% {background: rgba(255, 0, 0, 1.00);}
@@ -106,10 +88,6 @@ Define the keyframe and changes
 
 }
 
-/* Opera */
-
-
-
 @-o-keyframes bgColor {
 
 	0% {background: rgba(255, 0, 0, 1.00);}
@@ -117,10 +95,6 @@ Define the keyframe and changes
 	100%{background: rgba(0, 255, 0, 1.00);}
 
 }
-
-/* Standard syntax */
-
-
 
 @keyframes bgColor {
 
