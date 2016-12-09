@@ -48,19 +48,19 @@ Define this in your CSS
 
 .bgAnimObj {
 
-    -webkit-animation: bgColor 1s;
+    -webkit-animation: bgColor 2s;
 
     /* Chrome, Safari */
 
-    -moz-animation: bgColor 1s;
+    -moz-animation: bgColor 2s;
 
     /* Firefox */
 
-    -o-animation: bgColor 1s;
+    -o-animation: bgColor 2s;
 
     /* Opera */
 
-    animation: bgColor 1s;
+    animation: bgColor 2s;
 	
 	animation-iteration-count: infinite;
 	
