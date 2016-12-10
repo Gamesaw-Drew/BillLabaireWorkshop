@@ -7,7 +7,7 @@ body {
 
 header { 
 	align-content: center;
-	background-color: #252CB0;
+	position: fixed;
 }
 
 h1 {
@@ -114,5 +114,217 @@ Define this in your CSS
 	0% {background: rgba(255, 0, 0, 1.00);}
 	50%{background: rgba(0, 0, 255, 1.00);}
 	100%{background: rgba(0, 255, 0, 1.00);}
+
+}
+
+/* 
+
+
+
+Define this in your CSS 
+
+.easeAnimation = Replace it by the name you want to give your animation
+
+.easeAnimObj = Assign this class to elements to which you intend to apply the animation
+
+*/
+
+
+
+.spazanimation {
+
+    position: relative;
+
+    /* Chrome, Safari*/
+
+    -webkit-animation-name: easeAnimation;
+
+    -webkit-animation-duration: .02s;
+
+    -webkit-animation-timing-function: ease;
+
+    -webkit-animation-delay: 7s;
+
+    -webkit-animation-iteration-count: infinite;
+
+    -webkit-animation-direction: alternate;
+
+    -webkit-animation-play-state: running;
+
+    /* Opera */
+
+    -o-animation-name: easeAnimation;
+
+    -o-animation-duration: .02s;
+
+    -o-animation-timing-function: ease;
+
+    -o-animation-delay: 7s;
+
+    -o-animation-iteration-count: infinite;
+
+    -o-animation-direction: alternate;
+
+    -o-animation-play-state: running;
+
+    /* Mozilla */
+
+    -moz-animation-name: easeAnimation;
+
+    -moz-animation-duration: .02s;
+
+    -moz-animation-timing-function: ease;
+
+    -moz-animation-delay: 7s;
+
+    -moz-animation-iteration-count: infinite;
+
+    -moz-animation-direction: alternate;
+
+    -moz-animation-play-state: running;
+
+    /* Standard syntax */
+
+    animation-name: easeAnimation;
+
+    animation-duration: .02s;
+
+    animation-timing-function: ease;
+
+    animation-delay: 7s;
+
+    animation-iteration-count: infinite;
+
+    animation-direction: alternate;
+
+    animation-play-state: running;
+
+}
+
+/* 
+
+
+
+Define the keyframe and changes
+
+
+
+*/
+
+
+
+/* Chrome, Safari */
+
+
+
+@-webkit-keyframes easeAnimation {
+
+    0% {
+
+        left: 0px;
+
+        top: 0px;
+
+    }
+
+    100% {
+
+        left: 0px;
+
+        top: 100px;
+		
+		bottom: 0px;
+		
+		right: 100px
+
+    }
+
+}
+
+/* Firefox */
+
+
+
+@-moz-keyframes easeAnimation {
+
+    0% {
+
+        left: 0px;
+
+        top: 0px;
+
+    }
+
+    100% {
+
+        left: 0px;
+
+        top: 100px;
+		
+		bottom: 0px;
+		
+		right: 100px
+
+    }
+
+}
+
+/* Opera */
+
+
+
+@-o-keyframes easeAnimation {
+
+    0% {
+
+        left: 0px;
+
+        top: 0px;
+
+    }
+
+    100% {
+
+        left: 0px;
+
+        top: 100px;
+		
+		bottom: 0px;
+		
+		right: 100px
+
+    }
+
+}
+
+/* Standard syntax */
+
+
+
+@keyframes easeAnimation {
+
+    0% {
+
+        left: 0px;
+
+        top: 0px;
+		
+		bottom: 0px;
+		
+		right: 100px
+
+    }
+
+    100% {
+
+        left: 0px;
+
+        top: 100px;
+		
+		bottom: 0px;
+		
+		right: 100px
+
+    }
 
 }
